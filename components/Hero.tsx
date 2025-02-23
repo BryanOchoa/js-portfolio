@@ -25,7 +25,7 @@ const Hero = () => {
                 className="text-center text-[40px] md:text-5xl lg:text-6xl"
                 words="Turning Curiosity into Code, One Line at a Time. "
             />
-            <p className="text-center md:tracking-wider md-4 text-sm md:text-lg lg:text-2xl"> Hello my name is Bryan, a future <u>pro</u>gramer! </p>
+            <p className="text-center md:tracking-wider md-4 text-sm md:text-lg lg:text-2xl mb-5"> Hello my name is Bryan, a future <u>pro</u>gramer! </p>
 
             <a href="#about">
               <MagicButton 
