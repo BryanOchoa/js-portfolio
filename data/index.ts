@@ -68,6 +68,15 @@ export const navItems = [
       spareImg: "",
     },
   ];
+
+  export const people = [
+    {
+        id:1,
+        name: 'Bryan Ochoa-Flores',
+        designation: 'Future Software Engineer',
+        image: "/intro.png",
+    }
+  ]
   
   export const projects = [
     {

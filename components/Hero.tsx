@@ -3,6 +3,8 @@ import { BackgroundLines } from "./ui/background-lines";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { SlActionRedo } from "react-icons/sl";
+import { AnimatedTooltip } from "./ui/AnimatedToolTip";
+import { people } from "@/data";
 
 const Hero = () => {
   return (
@@ -26,6 +28,8 @@ const Hero = () => {
                 words="Turning Curiosity into Code, One Line at a Time. "
             />
             <p className="text-center md:tracking-wider md-4 text-sm md:text-lg lg:text-2xl mb-5"> Hello my name is Bryan, a future <u>Pro</u>grammer! </p>
+
+            <AnimatedTooltip items={people} />
 
             <a href="#about">
               <MagicButton 
