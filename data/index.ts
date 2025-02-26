@@ -18,7 +18,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Looking to Build Meaningful Connections Across the Globe.",
+      title: "Building Meaningful Connections Across the Globe.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -59,7 +59,7 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Let's Connect & Build SOmething Extraordinary",
+      title: "Let's Connect & Build Something Extraordinary",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
