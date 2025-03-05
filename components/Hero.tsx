@@ -8,7 +8,7 @@ import { people } from "@/data";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-16">
+    <div className="pb-20 pt-16" id="about">
       <div>
         <Spotlight />
       </div>
@@ -31,7 +31,7 @@ const Hero = () => {
 
             <AnimatedTooltip items={people} />
 
-            <a href="#about">
+            <a href="#projects">
               <MagicButton 
               title="My Project's"
               icon={<SlActionRedo />}
